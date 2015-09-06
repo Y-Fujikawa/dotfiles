@@ -14,7 +14,10 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'rhysd/github-complete.vim'
 NeoBundle 'itchyny/lightline.vim'
+" VimでRailsを使う
 NeoBundle 'tpope/vim-rails'
+" vimでslimを使う
+NeoBundle 'slim-template/vim-slim'
 " Ruby向けにendを自動挿入してくれる
 NeoBundle 'tpope/vim-endwise'
 " ファイルオープンを便利に
